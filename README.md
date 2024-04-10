@@ -17,8 +17,9 @@ There are two HTML files with forms in the **views** folder. The first is the
 and navigating to [http://localhost:5000] and clicking the `Create a Cat` link.
 
 The `method` and `action` attributes on an HTML `<form>` element determine the
-method and URL of the request that will be made when the form is submitted. The
-`method` attribute must be `GET` or `POST` request methods and the `action`
+method and URL of the request that will be made when the form is submitted.
+
+The `method` attribute must be `GET` or `POST` request methods and the `action`
 attribute will be the URL of the request. Determine the method and URL of the
 request that will be made when the `Create a Cat` form in the
 **views/cat-form.html** file is submitted.
